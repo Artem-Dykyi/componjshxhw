@@ -1,11 +1,13 @@
 import React from 'react';
+import s from './Friends.module.css'
+
 
 export const FriendItem = ({ avatar, name, isOnline }) => {
     return (
-    <li className="item">
-      <span className={isOnline ? 'status online' : 'status offline'}></span>
-      <img className="avatar" src={avatar} alt="User avatar" width="48" />
-      <p className="name">{name}</p>
+    <li className={s.item}>
+      <span className={`${s.status} ${isOnline ? s.online : s.offline}`}></span>
+      <img className={s.avatar} src={avatar} alt="User avatar" width="48" />
+      <p className={s.name}>{name}</p>
     </li>
   );
 }

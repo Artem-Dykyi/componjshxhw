@@ -1,0 +1,40 @@
+ul{
+    list-style: none;
+}
+
+/* .statistics{
+} */
+
+.statBox{
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+
+}
+
+.title{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.statList{
+    background-color: #fff;
+    /* width: 500px; */
+    display: flex;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10px; */
+    gap: 15px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+}

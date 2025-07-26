@@ -48,9 +48,11 @@ function App () {
         stats={user.stats}
         />
         
-
-      <Statistics title="Upload stats" stats={data} />;
-      <Statistics stats={data} />;
+      <div>
+        <Statistics title="Upload stats" stats={data} />;
+        <Statistics stats={data} />;
+      </div>
+      
       
       <FriendList friends={friends} />
 
